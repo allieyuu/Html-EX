@@ -1,0 +1,60 @@
+body {    
+    margin: 0;
+    background-image: url(./images/bg.jpg);
+}
+img{
+    display: block;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.box{
+    width: 1000px;
+    margin: 0 auto;/* 間距(auto)自動偵測必須搭配寬度 */
+}
+.btn{
+    float: left; /* 用float浮動區塊，取覆蓋原來的block */
+}
+.col{
+    font-size:14px;
+    float: left;
+    width: 446px; /*文字會自動延展*/
+    border: dotted 2px rgb(109, 69, 24);
+    margin: 10px;
+    padding: 10px;
+}
+
+.col span {
+    color:rgb(255, 2, 2);
+hr{
+    border:rgb(58, 14, 216) 1px solid;
+}
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size:150;
+}
+p {
+    font-size: 1em;
+}
+
+.footer{
+    clear: both;
+    width:1000px;
+    margin:0 auto;
+    text-align: center;
+    border-top: dotted 2px rgb(109, 69, 24);
+    padding: 10px;
+}
+
+address {
+    font-style: normal; /* 取消斜體 */
+}
+address p {
+    font-style: normal; /* 取消斜體 */
+}
